@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="personal-portfolio">Personal Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#hobbies" style="--i:4;">Hobbies</a>
+            <a href="#photos" style="--i:5;">Photos</a>
+            <a href="#contact" style="--i:6;">Contact</a>
+            
+            
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100059452192778"><i class='bx bxl-facebook'></i></a>   
+            <a href="https://github.com/Jeremybrixlucis"><i class='bx bxl-github'></i></a>
+        </div>
+    
+        <div class="home-content">
+            <h1>Hi I'm Jeremy Brix A. Lucis</h1>
+            <h3>BSIT 2B Student</h3>
+            <p>"Creating code is an art that transforms abstract ideas into functional digital solutions. 
+                It requires the skillful crafting of logical lines of code that converge into sophisticated algorithms. 
+                Coding is the language of innovation, where creativity collaborates with precision, 
+                and concepts materialize in the realm of binary code. With each keystroke, 
+                a coder weaves a narrative of functionality, empowering machines to execute tasks and break through limitations. 
+                In this realm of binary poetry, every semicolon is like a brushstroke in the symphony of progress, 
+                where the language of machines becomes a canvas for human ingenuity to flourish."</p>
+            <onclick class="btn">Web Developer</onclick>
+            
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="MyProfile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>About me</h1>
+            <p>Hello, I'm Jeremy Brix A. Lucis 21 years of age, a dedicated and passionate web developer student currently studying in Northwest Samar State University with a strong background in web development technologies such as 
+                HTML, CSS, JavaScript, and Python. <br><br>I'm constantly honing my skills and pushing the boundaries of what can be achieved in the digital realm. 
+                From crafting visually stunning user interfaces to building a dynamic web applications,  
+                I believe that through continuous learning and innovation, 
+                I can harness the power of technology to shape the future and make a positive difference in the world. 
+                Let's embark on this journey together and transform ideas into captivating digital realities.
+            </p>
+        </div>
+    </section>
+
+     
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h1>Skills</h1>
+            <h2>Technical Skills:</h2>
+        
+                <p>HTML:</p>
+                <div class="graph">
+                    <div class="bar" data-width="95%"></div>
+                    <div class="percent">95%</div>
+                </div>
+            
+                <p>CSS:</p>
+                <div class="graph">
+                    <div class="bar" data-width="90%"></div>
+                    <div class="percent">90%</div>
+                </div>
+             
+                <p>JAVASCRIPT:</p>
+                <div class="graph">
+                    <div class="bar" data-width="86%"></div>
+                    <div class="percent">86%</div>
+                </div>
+             
+                <p>PYTHON:</p>
+                <div class="graph">
+                    <div class="bar" data-width="70%"></div>
+                    <div class="percent">70%</div>
+                </div>
+            
+
+            <br><br><h2>Soft Skills:</h2>
+            <ul>
+                <h3>Teamwork:</h3>
+                <div class="graph">
+                    <div class="bar" data-width="80%"></div>
+                    <div class="percent">80%</div>
+                </div>
+
+                <h3>Problem Solving:</h3>
+                <div class="graph">
+                    <div class="bar" data-width="82%"></div>
+                    <div class="percent">82%</div>
+                </div>
+
+                <h3>Communicating:</h3>
+                <div class="graph">
+                    <div class="bar" data-width="96%"></div>
+                    <div class="percent">96%</div>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <div class="hobbies-content">
+            <h1>Hobbies</h1>
+            <h2>My Hobbies and Interest</h2>
+            <ul>
+                <li>Playing Online Games</li>
+                <li>Watching Animes</li>
+                <li>Learning Different Codes</li>
+                <li>Watching Movies</li>
+                <li>Giving Time to my Girl Kheryll</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="photos" id="photos">
+        <div class="photos-content">
+            <h1>Photos</h1>
+            <p>This is my Photos:</p>
+            <img src="photo1.jpg" class="photo" >
+            <img src="photo2.jpg" class="photo" >
+
+        </div>
+    </section>
+
+    <section id="contact" class="section"><br>
+        <h1>Contact:</h1>
+                <div class="contact__content">
+                    <br><p>Feel free to reach out to me for collaborations, inquiries, just email me through filled upping this form <br>
+                        or just message me at facebook, above in home just click the facebook sign and you will be directed to my facebook page<br>thankyou!</p>
+                    
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                        <div>
+                            <input type="hidden" name="access_key" value="a01f730b-7d64-4712-a7fd-718930f4ac14">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" placeholder="Full name" class="coantact-inputs" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Message" class="contact-inputs" required></textarea>
+                        </div>
+                        <button type="submit">Send</button><br><br>
+                
+                    </form>
+                </div>
+    </section><br>
+
+
+    <script src="script.js"></script>
+    <div class="footer">
+        <p>All rights reserved @2024</p>
+    </div>
+</body>
+
+</html>
